@@ -1,0 +1,8 @@
+
+public class ProductReview extends Post {
+	private String brand;
+	private int stars;
+	
+	
+	
+}

@@ -1,0 +1,68 @@
+import java.util.Date;
+
+ public class Post {
+	private String title;
+	private Date date;
+	private String content;
+	private int likes;
+	private int deslikes;
+
+	//métodos get e set
+	public String getTitle() {
+		return title;
+	}
+
+	public void setTitle(String title) {
+		this.title = title;
+	}
+
+	public Date getDate() {
+		return date;
+	}
+
+	public void setDate(Date date) {
+		this.date = date;
+	}
+
+	public String getContent() {
+		return content;
+	}
+
+	public void setContent(String content) {
+		this.content = content;
+	}
+
+	public int getLikes() {
+		return likes;
+	}
+
+	public void setLikes(int likes) {
+		this.likes = likes++;
+	}
+
+	public int getDeslikes() {
+		return deslikes;
+	}
+
+	public void setDeslikes(int deslikes) {
+		this.deslikes = deslikes++;
+	}
+
+	//métodos do blog
+	public void like(Post post) {
+		post.setLikes(1);
+
+	}
+
+	public void dislike(Post post) {
+		post.setDeslikes(1);
+	}
+
+	public void show(){
+		System.out.println("TiTulo "+getTitle);
+	}
+}
+
+	
+
+

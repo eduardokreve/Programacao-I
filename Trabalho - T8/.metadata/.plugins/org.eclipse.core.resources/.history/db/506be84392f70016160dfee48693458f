@@ -1,0 +1,22 @@
+
+public class News extends Post {
+	private String source;
+	
+	//métodos get e set
+	public String getSource() {
+		return source;
+	}
+
+	public void setSource(String source) {
+		this.source = source;
+	}
+
+	public static void show() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+	
+}

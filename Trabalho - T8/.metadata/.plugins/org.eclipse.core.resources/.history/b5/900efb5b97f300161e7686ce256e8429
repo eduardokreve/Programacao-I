@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+
+public class PrincipalT8 {
+	public static void main(String[] args) {
+		
+		Scanner texto = new Scanner(System.in);
+		
+		System.out.println("BLOG: O que você quer fazer?");
+		System.out.println("1 - Novo post de noticia\n" + "2 - Nova resenha de produto");
+		
+		
+
+	}
+
+}

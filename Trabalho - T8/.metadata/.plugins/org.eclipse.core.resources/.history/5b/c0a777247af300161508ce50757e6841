@@ -1,0 +1,22 @@
+
+public class ProductReview extends Post {
+	private String brand;
+	public String getBrand() {
+		return brand;
+	}
+	
+	public void setBrand(String brand) {
+		this.brand = brand;
+	}
+	
+	public int getStars() {
+		return stars;
+	}
+	
+	public void setStars(int stars) {
+		this.stars = stars;
+	}
+	
+	private int stars;
+	
+}

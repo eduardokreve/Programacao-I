@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+
+public class PrincipalT8 {
+	public static void main(String[] args) {
+		
+		Scanner texto = new Scanner(System.in);
+		
+		System.out.println("BLOG: O que você quer fazer?\n");
+		System.out.println("1 - Novo post de noticia\n" + "2 - Nova resenha de produto");
+		System.out.println("3 - Novo post de outros assuntos\n" + "4 - Listar todas as postagens");
+		System.out.println("5 - Curtir uma postagem\n" + "6 - Não curtir uma postagem\n" + "10 - Sair");
+		System.out.print("Escolha a opção: ");
+		int num = texto.next(int);
+		
+		
+		
+
+	}
+
+}
